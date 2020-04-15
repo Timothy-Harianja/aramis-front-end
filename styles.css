@@ -1,0 +1,38 @@
+#container {
+    width: 1000px;
+    margin: 45px auto 0 auto;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#header_paragraph {
+    margin-bottom: 20px;
+}
+
+#load_btn {
+    position: relative;
+    float: right;
+    margin: 0 20px 20px 0;
+}
+
+/* Setting columns width */
+.table_ids {
+    font-weight: bold;
+}
+
+th.id {
+    width: 15%;
+}
+
+th.name {
+    width: 40%;
+}
+
+@media only screen and (max-width: 1000px) {
+    #container {
+      width: 100%;
+    }
+  }
