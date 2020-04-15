@@ -8,11 +8,13 @@ function buildTable() {
         $('#main-table tbody').empty()
         let sites_data = data.sites
         $.each(sites_data, function(key, value) {
-            let row_data = '<tr>'
-            row_data += '<td class=\"table_ids\">' + value.id + '</td>' 
-            row_data += '<td>' + value.name + '</td>' 
-            row_data += '<td>' + value.url + '</td>' 
-            row_data += '</tr>'
+            let row_data = 
+                `<tr>
+                    <td class="table_ids">${value.id}</td>
+                    <td>${value.name}</td> 
+                    <td>${value.url}</td>
+                </tr>`
+
             $('#main-table').append(row_data)
         })
     })
