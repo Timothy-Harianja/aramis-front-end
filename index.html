@@ -12,16 +12,16 @@
   </head>
   <body>
     <div id="container">
-        <h3 id='title'>Sample Table</h3>
+        <h2 id='title'>Sample Table</h2>
         <div id='header_paragraph'>
             You should be able to recreate this table. By default, the content of the table should be empty. 
             When you click the button, it should fetch the data located at https://aimtell.com/files/sites.json
-            using AJAX and insert it into the page using HANDLEBARS
+            using AJAX and insert it into the page using HANDLEBARS.
         </div>
         <button onclick="buildTable()" type="button" id="load_btn" class="btn btn-primary">Load Data</button>
 
         <table id="main-table" class="table">
-            <thead>
+            <thead id="table-head">
             <tr>
                 <th class="id" scope="col">id</th>
                 <th class="name" scope="col">name</th>

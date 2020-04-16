@@ -1,15 +1,21 @@
+body {
+    font-weight: 500;
+}
+
 #container {
-    width: 1000px;
+    width: 1160px;
     margin: 45px auto 0 auto;
 }
 
 #title {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #header_paragraph {
     margin-bottom: 20px;
+    font-size: 14px;
+    width: 960px;
 }
 
 #load_btn {
@@ -18,17 +24,17 @@
     margin: 0 20px 20px 0;
 }
 
-/* Setting columns width */
 .table_ids {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
+/* Setting columns width */
 th.id {
     width: 15%;
 }
 
 th.name {
-    width: 40%;
+    width: 30%;
 }
 
 @media only screen and (max-width: 1000px) {
